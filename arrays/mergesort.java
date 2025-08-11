@@ -79,7 +79,7 @@ public class mergesort {
     public static void main(String[] args) {
         int[] arr = {65,90,97,122,32,48,57};
         int n = arr.length;
-        mergeSort(arr, 0, arr.length-1);
+        mergeSort(arr, 0, n-1);
         disp(arr);
     }
 }
