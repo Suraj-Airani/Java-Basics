@@ -13,7 +13,6 @@ public class WriteToFile {
             bufferedWriter.write("This is Java writing code");
             bufferedWriter.close();
         } catch (IOException e) {
-            // TODO: handle exception
             System.out.println("Error: "+e.getMessage());
         }
     }

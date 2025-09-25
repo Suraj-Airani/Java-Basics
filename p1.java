@@ -49,5 +49,6 @@ public class p1 {
         System.out.println(digitNpow(n));
         System.out.println(lzfill(n-1));
         System.out.println(lzfill(n));
+        sc.close();
     }
 }                                                                                                         

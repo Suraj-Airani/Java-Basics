@@ -14,7 +14,6 @@ public class ReadFromFile {
                 System.out.println(line);
             bufferedReader.close();
         } catch (IOException e) {
-            // TODO: handle exception
             System.out.println("Error: "+e.getMessage());
         }
     }
